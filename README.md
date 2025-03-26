@@ -4,7 +4,7 @@
 
 ---
 
-# Über "Webdesign & Marketing Soliman GmbH"
+## Über "Webdesign & Marketing Soliman GmbH"
 
 ## Unternehmensgegenstand
 
