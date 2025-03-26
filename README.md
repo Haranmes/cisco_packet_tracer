@@ -1,11 +1,5 @@
 # Webdesign & Marketing Soliman
 
-Fach: CISCO-HA
-Lehrer:in: Frau Haag
-Abgabedatum: 20. Dezember 2024
-Ersteller: Ramez Soliman
-Letzte Änderung um: 17. Januar 2025 09:10
-
 # Inhaltsverzeichnis
 
 ---
