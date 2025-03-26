@@ -32,14 +32,14 @@ In der "Webdesign & Marketing Soliman GmbH" entsprechen die Namen der Geräte im
 
 ### Zugangsdaten
 
-| Bezeichnung | WIFI_SSID | Privileged EXEC | Konsolenport | Domaine | User | Passwort | WLAN PW |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| CENTRAL_MULTILAYER | - | CENTRAL_MULTILAYER | multilayer | eg.de | admin | web | - |
-| OFFICE_1F | - | OFFICE_1F | 1floor | 1floor.de | admin | web | - |
-| OFFICE_2F | - | OFFICE_2F | 2floor | 2floor.de | admin | web | - |
-| CENTRAL_R1 | - | central | centralr1 | centralr1.de | admin | web | - |
-| WIFI_1F | WIFI_1F | - | - | - | - | - | WIFI1FLOOR |
-| WIFI_2F | WIFI_2F | - | - | - | - | - | WIFI2FLOOR |
+| Bezeichnung        | WIFI_SSID | Privileged EXEC    | Konsolenport | Domaine      | User  | Passwort | WLAN PW    |
+| ------------------ | --------- | ------------------ | ------------ | ------------ | ----- | -------- | ---------- |
+| CENTRAL_MULTILAYER | -         | CENTRAL_MULTILAYER | multilayer   | eg.de        | admin | web      | -          |
+| OFFICE_1F          | -         | OFFICE_1F          | 1floor       | 1floor.de    | admin | web      | -          |
+| OFFICE_2F          | -         | OFFICE_2F          | 2floor       | 2floor.de    | admin | web      | -          |
+| CENTRAL_R1         | -         | central            | centralr1    | centralr1.de | admin | web      | -          |
+| WIFI_1F            | WIFI_1F   | -                  | -            | -            | -     | -        | WIFI1FLOOR |
+| WIFI_2F            | WIFI_2F   | -                  | -            | -            | -     | -        | WIFI2FLOOR |
 
 ### Netztopologie
 
@@ -47,20 +47,30 @@ In der "Webdesign & Marketing Soliman GmbH" entsprechen die Namen der Geräte im
 
 ## Adressierungstabelle
 
-| Gerätename | Interface | IPv4-Adresse/DHCP | Subnetzmaske | Default Gateway |
-| --- | --- | --- | --- | --- |
-| CENTRAL_R1 | G0/0 | 192.168.1.254 | 255.255.255.0 | - |
-| SERVER_CENTRAL | F0 | 192.168.1.253 | 255.255.255.0 | - |
-| OFFICE_EG | VLAN1 | 192.168.1.252 | 255.255.255.0 | 192.168.1254 |
-| OFFICE_1F | VLAN1 | 192.168.1.251 | 255.255.255.0 | 192.168.1.254 |
-| OFFICE_2F | VLAN1 | 192.168.1.250 | 255.255.255.0 | 192.168.1.254 |
-| LAPTOP_CEO | F0 | DHCP | 255.255.255.0 | - |
-| IPhone_CEO | W0 | DHCP | 255.255.255.0 | - |
-| PC_EMPFANG | F0 | DHCP | 255.255.255.0 | - |
-| IPhone_MARKETING | W0 | DHCP | 255.255.255.0 | - |
-| PC_MARKETING | F0 | DHCP | 255.255.255.0 | - |
-| PC_WEBDESIGNER | F0 | DHCP | 255.255.255.0 | - |
-| IPhone_webdesigner | W0 | DHCP | 255.255.255.0 | - |
-| CENTRAL_R1 | G0/1 | 10.0.0.1 | 255.255.255.0 | - |
-| dns.sinsheim | F0 | 10.0.0.2 | 255.255.255.0 | - |
-| sweetdelights.webserver | F0 | 10.0.0.3 | 255.255.255.0 | - |
+| Gerätename              | Interface | IPv4-Adresse/DHCP | Subnetzmaske  | Default Gateway |
+| ----------------------- | --------- | ----------------- | ------------- | --------------- |
+| CENTRAL_R1              | G0/0      | 192.168.1.254     | 255.255.255.0 | -               |
+| SERVER_CENTRAL          | F0        | 192.168.1.253     | 255.255.255.0 | -               |
+| OFFICE_EG               | VLAN1     | 192.168.1.252     | 255.255.255.0 | 192.168.1254    |
+| OFFICE_1F               | VLAN1     | 192.168.1.251     | 255.255.255.0 | 192.168.1.254   |
+| OFFICE_2F               | VLAN1     | 192.168.1.250     | 255.255.255.0 | 192.168.1.254   |
+| LAPTOP_CEO              | F0        | DHCP              | 255.255.255.0 | -               |
+| IPhone_CEO              | W0        | DHCP              | 255.255.255.0 | -               |
+| PC_EMPFANG              | F0        | DHCP              | 255.255.255.0 | -               |
+| IPhone_MARKETING        | W0        | DHCP              | 255.255.255.0 | -               |
+| PC_MARKETING            | F0        | DHCP              | 255.255.255.0 | -               |
+| PC_WEBDESIGNER          | F0        | DHCP              | 255.255.255.0 | -               |
+| IPhone_webdesigner      | W0        | DHCP              | 255.255.255.0 | -               |
+| CENTRAL_R1              | G0/1      | 10.0.0.1          | 255.255.255.0 | -               |
+| dns.sinsheim            | F0        | 10.0.0.2          | 255.255.255.0 | -               |
+| sweetdelights.webserver | F0        | 10.0.0.3          | 255.255.255.0 | -               |
+
+### VLANs
+
+| VLAN-Nummer | VLAN-Name          |
+|:-----------:| ------------------ |
+| 10          | MANAGEMENT         |
+| 20          | EMPFANG            |
+| 30          | CHEFETAGE          |
+| 40          | ENTWICKLUNG_DESIGN |
+| 50          | SERVER             |
