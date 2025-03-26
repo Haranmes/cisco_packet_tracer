@@ -34,7 +34,7 @@ In der "Webdesign & Marketing Soliman GmbH" entsprechen die Namen der Geräte im
 
 | Bezeichnung | WIFI_SSID | Privileged EXEC | Konsolenport | Domaine | User | Passwort | WLAN PW |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| OFFICE_EG (Core Switch) | - | OFFICE_EG | erdgeschoss | eg.de | admin | web | - |
+| CENTRAL_MULTILAYER | - | CENTRAL_MULTILAYER | multilayer | eg.de | admin | web | - |
 | OFFICE_1F | - | OFFICE_1F | 1floor | 1floor.de | admin | web | - |
 | OFFICE_2F | - | OFFICE_2F | 2floor | 2floor.de | admin | web | - |
 | CENTRAL_R1 | - | central | centralr1 | centralr1.de | admin | web | - |
