@@ -1,5 +1,4 @@
 # Webdesign & Marketing Soliman
----
 
 ## Über "Webdesign & Marketing Soliman GmbH"
 
