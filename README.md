@@ -3,19 +3,19 @@
 
 ## Über "Webdesign & Marketing Soliman GmbH"
 
-## Unternehmensgegenstand
+### Unternehmensgegenstand
 
 Die Webdesign & Marketing Soliman GmbH ist ein innovatives Dienstleistungsunternehmen, das sich auf die Entwicklung und Umsetzung digitaler Medienlösungen spezialisiert hat. Als GmbH strukturiert, konzentriert sich das Unternehmen auf zwei strategisch wichtige Hauptgeschäftsfelder. Im Bereich Webdesign und Webentwicklung bietet das Unternehmen die Entwicklung von High-Performance Websites mit excellentem SEO-Score, Responsive Design für optimale Darstellung auf allen Endgeräten, moderne UI/UX-Konzepte für maximale Benutzerfreundlichkeit, Content Management Systeme (CMS) für einfache Pflege sowie regelmäßige Performance-Optimierung und Wartung an.
 
 Im zweiten Hauptgeschäftsfeld, dem digitalen Marketing, liegt der Fokus auf Suchmaschinenoptimierung (SEO) für Top-Rankings, Social Media Marketing und Community Management, Content Marketing und Storytelling, E-Mail Marketing Kampagnen sowie Analytics und Conversion-Optimierung.
 
-## Unternehmensaufbau
+### Unternehmensaufbau
 
 Die Firma zeichnet sich durch eine effiziente, dreigliedrige Organisationsstruktur aus:
 
 Die Geschäftsführung ist mit modernster mobiler Technologie wie High-End Laptops und aktuellen Smartphones ausgestattet, um optimale Erreichbarkeit und Flexibilität zu gewährleisten. Die professionelle Webdesign-Abteilung besteht aus hochqualifizierten Webdesignern, die an ergonomisch gestalteten Arbeitsplätzen arbeiten. Diese ist eng mit einem erfahrenen Marketing-Team verbunden, wodurch eine ganzheitliche Projektbearbeitung ermöglicht wird.
 
-## Unternehmensgröße
+### Unternehmensgröße
 
 Als dynamisches mittelständisches Unternehmen verfügt die Firma über ein effizientes Team von 5-10 hochspezialisierten Mitarbeitern, die in einer modernen Bürostruktur eng zusammenarbeiten. Das innovative Kombibüro-Konzept mit verschiedenen Fachabteilungen fördert dabei die Kommunikation und Kreativität zwischen den Mitarbeitern. Ein Beispiel Kundenauftrag für die Bäckerei "Sweet Delights", eine Bäckerei mit amerikanischen Backwaren:
 
@@ -23,15 +23,15 @@ Als dynamisches mittelständisches Unternehmen verfügt die Firma über ein effi
 
 ---
 
-# Über das Netzwerk
+## Über das Netzwerk
 
 Die Netzwerkinfrastruktur des Unternehmens basiert auf mehreren Kernkomponenten. Im Zentrum steht ein DNS & DHCP Server, der die grundlegenden Netzwerkdienste bereitstellt. Die räumliche Gestaltung als Kombibüro ermöglicht eine enge Zusammenarbeit zwischen den Webdesign- und Marketing-Teams. Für maximale Flexibilität wurde eine mobile Geräteanbindung implementiert, die es den Mitarbeitern ermöglicht, von verschiedenen Standorten aus zu arbeiten. Zusätzlich verfügt das Unternehmen über eine professionelle Webserver-Struktur zur Verwaltung und Bereitstellung der Kundenaufträge.
 
-## Namenskonzept
+### Namenskonzept
 
 In der "Webdesign & Marketing Soliman GmbH" entsprechen die Namen der Geräte im Netz ihrer physischen Lage im Bürogebäude bspw. `OFFICE_1F` oder bei Endgeräten → Art des Endgerätes + Bereich wie bspw. `PC_EMPFANG`. Dies ermöglicht bei einer Vielzahl von Geräten eine schnelle Lokalisierung jedes einzelnen Geräts.
 
-## Zugangsdaten
+### Zugangsdaten
 
 | Bezeichnung | WIFI_SSID | Privileged EXEC | Konsolenport | Domaine | User | Passwort | WLAN PW |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -42,7 +42,7 @@ In der "Webdesign & Marketing Soliman GmbH" entsprechen die Namen der Geräte im
 | WIFI_1F | WIFI_1F | - | - | - | - | - | WIFI1FLOOR |
 | WIFI_2F | WIFI_2F | - | - | - | - | - | WIFI2FLOOR |
 
-## Netztopologie
+### Netztopologie
 
 ![image.png](image%201.png)
 
